@@ -5,17 +5,6 @@ Description
 -----------
 XmlRpc Web Service Client .NET is a C# implementation of XML-RPC, a popular
 protocol that uses XML over HTTP to implement remote procedure calls.
-This implementation can be used in .NET 4.5, NET 3.5 CF.
-This software was tested with Odoo ERP 8 and 9.
-Examples are available in the sandbox folder.
-
-
-Features
---------
-- License: LGPL 3
-- Language: C#, .NET 4.5
-- IDE: Visual Studio 2012, MonoDevelop 5.9.6
-- Version: v1.3.0
 
 
 Links
@@ -245,13 +234,3 @@ RESPONSE:
 READ:
 43
 ```
-
-- Odoo Output:
-
-![](/documents/printscreen-1.png)
-
-![](/documents/printscreen-2.png)
-
-- WinCE PrintScreen Example:
-
-![](/documents/printscreen-3.png)
