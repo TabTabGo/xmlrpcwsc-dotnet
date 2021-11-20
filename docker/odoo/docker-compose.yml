@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:10
+    environment:
+      - TZ=America/Guayaquil
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    volumes:
+      - odoo_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  odoo:
+    image: odoo:15
+    environment:
+      - TZ=America/Guayaquil
+      - HOST=postgres
+    volumes:
+      - odoo_filestore:/var/lib/odoo
+      - ./odoo.conf:/etc/odoo/odoo.conf
+    ports:
+      - 8069:8069
+
+volumes:
+  odoo_data:
+  odoo_filestore:

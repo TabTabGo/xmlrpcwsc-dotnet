@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  xmlrpcserver:
+    build: .
+    environment:
+      - TZ=America/Guayaquil
+    ports:
+      - 1417:1417
