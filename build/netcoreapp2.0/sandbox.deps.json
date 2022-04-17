@@ -1,20 +1,20 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "sandbox/1.0.0": {
         "dependencies": {
-          "xmlrpcwsc": "1.0.0"
+          "xmlrpcwsc": "1.4.0"
         },
         "runtime": {
           "sandbox.dll": {}
         }
       },
-      "xmlrpcwsc/1.0.0": {
+      "xmlrpcwsc/1.4.0": {
         "runtime": {
           "xmlrpcwsc.dll": {}
         }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "xmlrpcwsc/1.0.0": {
+    "xmlrpcwsc/1.4.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

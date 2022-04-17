@@ -16,6 +16,9 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net35;net45</TargetFrameworks>
     <OutputPath>..\build</OutputPath>
+    <PackageProjectUrl>https://github.com/TabTabGo/xmlrpcwsc-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TabTabGo/xmlrpcwsc-dotnet</RepositoryUrl>
+    <Description>A fork of sauljabin original work published as a Nuget package</Description>
   </PropertyGroup>
 
 </Project>
